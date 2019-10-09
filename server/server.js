@@ -22,4 +22,4 @@ db.on('error', (err) => console.log('Error ' + err));
 
 app.listen(config.PORT, function() {
   console.log('Server is running on Port: ', config.PORT);
-}
+});
